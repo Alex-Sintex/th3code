@@ -1,9 +1,16 @@
 <template>
-  <!--<nav>
+  <nav>
     <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
+    <br>
     <router-link to="/login">Login</router-link>
-    <router-link to="/register">Register</router-link>
-  </nav>-->
+    <br>
+    <router-link to="/user-register">User Register</router-link>
+    <br>
+    <router-link to="/create-vacancies1">Create Vacancie1</router-link>
+    <router-link to="/create-vacancies2">Create Vacancie2</router-link>
+    <router-link to="/create-vacancies3">Create Vacancie3</router-link>
+  </nav>
   <router-view/>
 </template>
 
